@@ -1,0 +1,8 @@
+Executable : D:\software\android_sdk\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+--build
+E:\workplace\github\MyOpenSSL\app\.externalNativeBuild\cmake\debug\arm64-v8a
+--target
+native-lib
+jvmArgs : 
+
