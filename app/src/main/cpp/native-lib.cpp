@@ -341,7 +341,9 @@ Java_com_example_myopenssl_MainActivity_stringFromJNI(
     // rsa
     std::cout << "=== rsa加解密 ===" << std::endl;
     std::string key[2];
+    std::string serverKey[2];
     generateRSAKey(key);
+    generateRSAKey(serverKey);
     std::cout << "公钥: " << std::endl;
     std::cout << key[0] << std::endl;
     std::cout << "私钥： " << std::endl;
